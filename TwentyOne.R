@@ -30,7 +30,7 @@ Shuffle <- function(deck){
      return(deck)
     }
 
-# Take out the Top card from the deck without replacement
+# Take out the Top card from the deck without replacement because shuffling always takes place before calling this function
 
 Deal <- function(){
        
