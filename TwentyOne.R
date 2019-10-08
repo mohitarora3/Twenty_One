@@ -15,10 +15,9 @@ InIt <- function(){
 	return(deck)
    }
 
-# Shuffling the deck of cards randomly
+# Takes deck as input and shuffle the deck of cards randomly and returns the deck
 
 Shuffle <- function(deck){
-
 
   for (i in 1:(nrow(deck)-1))
      {
@@ -37,7 +36,6 @@ Deal <- function(){
 	 top <<- deck[1,1:3]
  	 deck[1:(nrow(deck)-1),1:3] <- deck[2:nrow(deck),1:3]
 	 deck <<- deck[-nrow(deck),] 
-	 
 	 cat("\n",paste(top[1,1])," of ",paste(top[1,2]),"\t")
 
      }
