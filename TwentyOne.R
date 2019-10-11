@@ -1,4 +1,4 @@
-# Defining suits, cards and values and thereby building deck
+# Defining suits, cards and values and thereby building deck for the game to begin.
  
 InIt <- function(){ 
 
