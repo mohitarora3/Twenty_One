@@ -19,7 +19,6 @@ InIt <- function(){
 
 Shuffle <- function(deck){
 
-
   for (i in 1:(nrow(deck)-1))
      {
      	   j <- (sample(i:nrow(deck),1))
@@ -41,7 +40,6 @@ Deal <- function(){
 	 cat("\n",paste(top[1,1])," of ",paste(top[1,2]),"\t")
 
      }
-
 
 TwentyOne <- function(){
 
